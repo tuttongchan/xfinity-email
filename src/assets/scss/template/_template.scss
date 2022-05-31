@@ -1,0 +1,291 @@
+.v-center {
+  vertical-align: middle;
+}
+
+.header {
+  background: #6138f6;
+  background-color: #6138f6;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+    padding-top: 20px;
+    h1,
+    p,
+    a {
+      color: white;
+    }
+    .header-logo_white {
+      width: 75px;
+      height: 25px;
+    }
+    .header-watch {
+      color: #fff;
+      text-decoration: underline;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  }
+}
+
+.free-movies-week {
+  background: #6138f6;
+  background-color: #6138f6;
+  position: relative;
+  bottom: 1px;
+
+  img {
+    max-width: 428px;
+  }
+
+  h1 a {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+}
+.btn {
+  color: $black;
+  font-weight: 600;
+  line-height: 50px;
+  background: $white;
+  background-color: $white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.dune {
+  background: #6138f6;
+  background-color: #6138f6;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  bottom: 2px;
+
+  .columns {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.discover {
+  background: #6138f6;
+  background-color: #6138f6;
+  position: relative;
+  bottom: 3px;
+
+  h2 a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+.favorite-titles {
+  background: #6138f6;
+  background-color: #6138f6;
+  position: relative;
+  bottom: 4px;
+
+  .columns {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  img {
+    max-width: 170px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.favorite-titles_second-row {
+  position: relative;
+  bottom: 5px;
+}
+
+.favorite-titles-btn {
+  position: relative;
+  bottom: 6px;
+}
+
+.apple-tv {
+  background: #fff;
+  background-color: #fff;
+
+  img {
+    max-width: 108px;
+  }
+
+  .coming-soon {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    line-height: 22px;
+  }
+
+  h3 {
+    color: #6138f5;
+    font-size: 33px !important;
+    font-weight: 600;
+    line-height: 35px;
+  }
+  .presented-by {
+    max-width: 283px;
+  }
+  p {
+    line-height: 22px;
+    font-weight: 400;
+  }
+}
+.apple-tv_shows {
+  background: #fff;
+  background-color: #fff;
+
+  img {
+    max-width: 250px;
+    margin: 0 !important;
+  }
+}
+
+.white-spacer {
+  background: #fff;
+  background-color: #fff;
+}
+
+.voice-remote {
+  background: #fff;
+  background-color: #fff;
+  position: relative;
+  bottom: 1px;
+
+  div {
+    text-align: center;
+  }
+
+  img {
+    width: 54px !important;
+    height: 42px;
+    display: inline-block;
+  }
+  p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    padding-left: 10px;
+
+    span {
+      color: #6138f5;
+      white-space: nowrap;
+    }
+  }
+}
+
+.thank-you {
+  background: #6138f6;
+  background-color: #6138f6;
+
+  a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.footer-menu {
+  background: #f5f5f7;
+  background-color: #f5f5f7;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px !important;
+    vertical-align: middle;
+  }
+
+  .footer-chat {
+    width: 25px !important;
+    display: inline-block;
+  }
+
+  p {
+    display: inline-block;
+  }
+
+  p a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: $black;
+  }
+
+  img {
+    width: 22px !important;
+    display: inline-block;
+    padding-right: 5px;
+  }
+}
+
+.footer {
+  background: #fff;
+  background-color: #fff;
+
+  .columns {
+    padding-top: 10px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+
+  p,
+  a {
+    display: inline;
+    color: #575760;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+.footer-links {
+  p {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .footer-menu {
+    p {
+      text-align: center !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .free-movies-week {
+    img {
+      width: 270px !important;
+    }
+    h1 {
+      font-size: 26px !important;
+    }
+  }
+}
